@@ -22,6 +22,30 @@ Every member built an **About me** page with React + Vite, deployed it to Vercel
 - **`main`** holds this README only. Nothing else goes here.
 - **One branch per person**, named after you (for example `aworeni`). Your branch holds your whole About me project.
 
+## Step 0 — Accept the invitation
+
+Before you can push anything, you need to accept the invite the captain sent you. Do this first; nothing else works until you do.
+
+**Option A — from your email**
+
+1. Open the email inbox you used to sign up for GitHub.
+2. Look for an email from **GitHub** with the subject *"OluwaSeun-Femi invited you to OluwaSeun-Femi/AI-fullstack-grp4"*. Check **Spam / Promotions** if you don't see it.
+3. Click the green **View invitation** button.
+4. Sign in to GitHub if it asks.
+5. Click the green **Accept invitation** button.
+
+**Option B — from GitHub directly** (if you can't find the email)
+
+1. Go to https://github.com/OluwaSeun-Femi/AI-fullstack-grp4/invitations
+2. Sign in to GitHub if it asks.
+3. Click the green **Accept invitation** button.
+
+You can also check https://github.com/notifications — pending invites show up there too.
+
+**How to know it worked:** open https://github.com/OluwaSeun-Femi/AI-fullstack-grp4 and you should see the repo without any "404" or "page not found". Tell the captain **"Invite accepted"** in the group chat.
+
+> Didn't get an invite at all? Send the captain your exact GitHub username (the one in the top-right corner when you're logged in, not your email) so he can add you.
+
 ## Step 1 — Push your project to your own branch
 
 You already have your React project on your laptop. Open its folder in the VS Code terminal and run:
@@ -82,7 +106,8 @@ Then on GitHub click **Compare & pull request** → **Create pull request**.
 | Git asks who you are | `git config --global user.name "Name"` and `git config --global user.email "email"` |
 | `remote origin already exists` | Run `git remote set-url origin https://github.com/OluwaSeun-Femi/AI-fullstack-grp4.git` |
 | `git push` asks for a password | Sign in to GitHub from VS Code's Source Control panel |
-| `git push` says "permission denied" | Accept the collaborator invite in your email first |
+| `git push` says "permission denied" or "403" | You haven't accepted the invite yet — go back to **Step 0** |
+| Invite link says "expired" | Invites last 7 days. Ask the captain to send it again |
 | "No existing credentials found" (Vercel) | Run `npx vercel login`, then `npx vercel --prod` again |
 | Vercel fails completely | Drag your `dist` folder onto https://app.netlify.com/drop |
 
