@@ -13,7 +13,7 @@ Every member built an **About me** page with React + Vite, deployed it to Vercel
 | Name | Role | About me page | Code |
 |------|------|---------------|------|
 | Oluwaseun Oluwafemi | Captain | _add your link_ | [`OluwaSeun-Femi`](../../tree/OluwaSeun-Femi) |
-| Aworeni | Member | _add your link_ | _branch link_ |
+| Aworeni | Member |(https://deploy-nine-sigma-75.vercel.app/)| _branch link_ |
 | Dansu | Member | _add your link_ | _branch link_ |
 | Akinsola | Member | _add your link_ | [`Akinsola-Temiloluwa`](../../tree/temi)  |
 
